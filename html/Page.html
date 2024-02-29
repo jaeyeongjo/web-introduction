@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- CSS 파일 연결 -->
+    <link rel="stylesheet" href="../css/style_introduction.css">
+    <!-- 폰트 연결-->
+    <link rel="stylesheet" href="../css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300&family=Oswald:wght@500&family=Roboto+Mono:wght@200&family=Roboto:wght@300&display=swap"
+            rel="stylesheet">
+</head>
+
+<body>
+    <header class="stacks-name">
+        <p>자기소개</p>
+    </header>
+    <article class="main-introduction">
+        <p>이름 : 레오</p>
+        <p>사는 곳 : 방이동</p>
+        <p>안녕하세요 저는 레오입니다. </p>
+    </article>
+
+    <div>
+        <h2>좋아하는 영화 BEST5</h2>
+        <table border="1">
+            <tr>
+                <th>순위</th>
+                <th>제목</th>
+                <th>포스터</th>
+                <th>바로가기</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>타이타닉</td>
+                <td style="text-align: center;"><img src="../images/movie3.jpg" alt="타이타닉 포스터" class="movie-poster" height="350" width="250"></td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?where=nexearch&sm=tab_etc&mra=bkEw&pkid=68&os=1756832&qvt=0&query=%EC%98%81%ED%99%94%20%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89"
+                       target="_blank">링크</a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>서울의 봄</td>
+                <td style="text-align: center;"><img src="../images/movie2.jpg" alt="서울의 봄 포스터" class="movie-poster" height="350" width="250"></td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%98%81%ED%99%94+%EC%84%9C%EC%9A%B8%EC%9D%98%EB%B4%84&oquery=%EC%98%81%ED%99%94+%ED%83%80%EC%9D%B4%ED%83%80%EB%8B%89&tqi=iO8uTsqo1e8ssRdZqbCssssssxZ-054535"
+                       target="_blank">링크</a></td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>기생충</td>
+                <td style="text-align: center;"><img src="../images/movie1.jpg" alt="기생충 포스터" class="movie-poster" height="350" width="250"></td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%98%81%ED%99%94+%EA%B8%B0%EC%83%9D%EC%B6%A9&oquery=%EC%98%81%ED%99%94+%EC%84%9C%EC%9A%B8%EC%9D%98%EB%B4%84&tqi=iO8uJlqVN8oss5UtMzwssssssfZ-398756"
+                       target="_blank">링크</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">4</td>
+                <td>조커</td>
+                <td><img src="../images/movie5.jpg" alt="조커 포스터" class="movie-poster" height="350" width="250"></td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%98%81%ED%99%94+%EC%A1%B0%EC%BB%A4&oquery=%EC%98%81%ED%99%94+%EC%A1%B0%EC%BB%A42&tqi=iO8vksqVOsVss7zkW5ossssss3V-069160"
+                       target="_blank">링크</a></td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">5</td>
+                <td>찰리와 초콜릿공장</td>
+                <td><img src="../images/movie4.jpg" alt="찰리와 초콜릿공장 포스터" class="movie-poster" height="350" width="250"></td>
+                <td>
+                    <a href="https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&ssc=tab.nx.all&query=%EC%98%81%ED%99%94+%EC%B0%B0%EB%A6%AC%EC%99%80+%EC%B4%88%EC%BD%9C%EB%A6%BF%EA%B3%B5%EC%9E%A5&oquery=%EC%98%81%ED%99%94+%EC%B0%B0%EB%A6%AC%EC%9D%98+%EC%B4%88%EC%BD%9C%EB%A6%BF%EA%B3%B5%EC%9E%A5&tqi=iO8vcsqVOsVss7%2Bgd0dssssstBK-122857"
+                       target="_blank">링크</a></td>
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <h2>방명록</h2>
+        <form>
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name"><br>
+
+            <label>좋아하는 영화:</label><br>
+            <input type="checkbox" id="movie3" name="favorite_movie" value="타이타닉">
+            <label for="movie3">타이타닉</label><br>
+            <input type="checkbox" id="movie1" name="favorite_movie" value="기생충">
+            <label for="movie1">서울의 봄</label><br>
+            <input type="checkbox" id="movie2" name="favorite_movie" value="서울의 봄">
+            <label for="movie2">기생충</label><br>
+
+            <input type="checkbox" id="movie5" name="favorite_movie" value="조커">
+            <label for="movie5">조커</label><br>
+            <input type="checkbox" id="movie4" name="favorite_movie" value="초콜릿공장">
+            <label for="movie4">찰리의 초콜릿공장</label><br>
+
+            <button type="button" onclick="showAlert()">등록</button>
+            <button type="reset">취소</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
